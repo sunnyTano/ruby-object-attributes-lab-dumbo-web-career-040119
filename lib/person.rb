@@ -1,22 +1,22 @@
 class Person
  
-  def name(name)
-    @name = name
+  def name(person_name)
+    @name = person_name
   end
  
  
-  def name=(new_name)
-    @new_name = new_name
+  def name
+    @name
   end
   
  
-  def job
-    @job = job
+  def job=(job_type)
+    @job = job_type
   end
  
  
-  def job=(new_job)
-    @new_job = new_job
+  def job
+    @job
   end
  
 end
